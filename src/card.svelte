@@ -1,7 +1,7 @@
 <script>
   let advice_number = 0;
   let quote = "Click the dice, get an advice";
-
+  let src= "/static/pattern-divider-desktop.svg"
   const advice = async () => {
     const response = fetch("https://api.adviceslip.com/advice");
     await response
@@ -19,8 +19,8 @@
     <p>
         <span class="marks">"</span>{quote}<span class="marks">"</span>
     </p>
-    <img class="img-desktop" src="/src/images/pattern-divider-desktop.svg" alt="pattern-divider"/>
-    <img class="img-mobile" src="/src/images/pattern-divider-mobile.svg" alt="pattern-divider"/>
+    <img class="img-desktop" src="/static/pattern-divider-desktop.svg" alt="pattern-divider"/>
+    <img class="img-mobile" src="/static/pattern-divider-mobile.svg" alt="pattern-divider"/>
   </div>
   <button class="dice-btn" on:click={advice}>
     <img src="/src/images/icon-dice.svg" alt="dice-icon" />
