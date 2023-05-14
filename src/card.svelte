@@ -19,11 +19,11 @@
     <p>
         <span class="marks">"</span>{quote}<span class="marks">"</span>
     </p>
-    <img class="img-desktop" src="/static/pattern-divider-desktop.svg" alt="pattern-divider"/>
-    <img class="img-mobile" src="/static/pattern-divider-mobile.svg" alt="pattern-divider"/>
+    <img class="img-desktop" src="/pattern-divider-desktop.svg" alt="pattern-divider"/>
+    <img class="img-mobile" src="/pattern-divider-mobile.svg" alt="pattern-divider"/>
   </div>
   <button class="dice-btn" on:click={advice}>
-    <img src="/src/images/icon-dice.svg" alt="dice-icon" />
+    <img src="/icon-dice.svg" alt="dice-icon" />
   </button>
 </div>
 
