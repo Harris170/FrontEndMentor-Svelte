@@ -23,7 +23,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Netlify Site](https://frontendmentor-svelte.netlify.app/)
+- Live Site URL: [Netlify Site](https://epic-advice-generator.netlify.app/)
 
 ### Built with
 
