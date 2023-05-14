@@ -17,7 +17,7 @@
   <div class="card">
     <span>Advice #{advice_number}</span>
     <p>
-        <span class="marks">"</span>{quote}<span class="marks">"</span>
+        <span class="marks">"</span>{quote}<span class="marks"> "</span>
     </p>
     <img class="img-desktop" src="/pattern-divider-desktop.svg" alt="pattern-divider"/>
     <img class="img-mobile" src="/pattern-divider-mobile.svg" alt="pattern-divider"/>
