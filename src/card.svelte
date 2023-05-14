@@ -69,7 +69,6 @@
     padding: 3rem;
     padding-bottom: 4.25rem;
     width: min-content;
-    box-shadow: 0.5rem 0.5rem 3.125rem hsl(215, 23%, 14%);
   }
 
   span {
